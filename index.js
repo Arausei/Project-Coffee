@@ -1,6 +1,6 @@
 
 // console.log("Hi")
-document.addEventListener('DOMcontentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   console.log("The DOM is Loaded")
 })
 
