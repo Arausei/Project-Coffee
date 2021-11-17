@@ -46,5 +46,6 @@ headerSection.addEventListener("mouseenter" , () => {
 const submitBtn = document.querySelector("#submit-button")
 
 submitBtn.addEventListener("click", () => {
-  console.log("click work!")
+  // console.log("click work!")
+  alert("Let's play!");
 })
