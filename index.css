@@ -23,3 +23,12 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+#player-details {
+  text-align:center;
+}
+
+#radio-btn {
+  text-align:center;
+}
+

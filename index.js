@@ -18,7 +18,7 @@ fetch(flataDriversURL)
     const peachName = kartData[1].name
     const daisyName = kartData[2].name
 
-    const characterOne = document.querySelector("#character-1")
+      const characterOne = document.querySelector("#character-1")
       characterOne.textContent = marioName
       characterDetails.append(characterOne)
 
@@ -38,8 +38,22 @@ const headerSection = document.querySelector("#flata-header")
 headerSection.addEventListener("mouseenter" , () => {
   console.log("It's work")  //
   headerSection.style.border = '5px dotted orange';
-
 })
+
+headerSection.addEventListener("mouseout", () => {
+  headerSection.style.border = "purple";
+} )
+
+
+    // -- set time out on header
+    // headerSection.addEventListener("mouseout", () => {
+    //   headerSection.style.border = " ";
+    
+    //   setTimeout( () => {
+    //     headerSection.style.border = "";
+    //   }, 2500);
+    //   }, false);
+
 
 
 // -- submit event
