@@ -11,10 +11,13 @@ h1 {
 .subheading {
   color: #131199;
   text-align: center;
+  background-color: whitesmoke;
+  border: 5px solid #131199;
  } 
 
  .divider{
-  border: 1px solid #008CBA
+  border: 1px solid #008CBA;
+  opacity: 0%;
  }
 
 .column {
@@ -76,4 +79,8 @@ img {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer; 
+ }
+
+ .play-btn {
+   text-align: center;
  }
