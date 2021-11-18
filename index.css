@@ -1,11 +1,13 @@
 html {   
  background: url('src/Images/Mario Kart 8.jpeg') no-repeat center fixed;    
  background-size: cover;
+ margin: 30px;
 }
 
 h1 {
   text-align: center;
   color: rgb(218, 19, 19);
+  font-size: 40px;
 }
 
 .subheading {
@@ -55,12 +57,6 @@ img {
  #radio-btn {
   text-align:center;
  }
- 
-
-#mush-size {
-  max-width: 300px;
-  text-align: center;
-}
 
  #weapon-type{
   text-align:center;
@@ -86,13 +82,17 @@ img {
 
  #submit-button {
   background-color: whitesmoke;
-  border: whitesmoke;
+  border: 2px solid #131199;
   color: #008CBA;
   padding: 16px 32px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+ }
+
+ #submit-button:hover {
+   transform: scale(1.2);
  }
 
  .play-btn {
