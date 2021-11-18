@@ -1,7 +1,8 @@
-html {    
-  background: url('src/Images/Mario Kart 8.jpeg') no-repeat center fixed;     
-  background-size: cover;
-}
+/* html {   
+ background: url('src/Images/Mario Kart 8.jpeg') no-repeat center fixed;    
+ background-size: cover;
+} */
+
 h1 {
   text-align: center;
   color: rgb(218, 19, 19);
@@ -17,8 +18,8 @@ h1 {
   content: "";
   display: table;
   clear: both;
+  
 }
-
 
 img {
   max-width: 50%;
@@ -29,32 +30,38 @@ img {
 
 #player-details {
   text-align:center;
-}
-
-#radio-btn {
+  color: blueviolet;
+ }
+ 
+ #radio-btn {
   text-align:center;
-}
-
-#weapon-type {
+ }
+ 
+ #weapon-type {
   text-align:center;
-}
-
-#vehicle-type {
+ }
+ 
+ #vehicle-type {
   text-align:center;
-}
-
-button {
+ }
+ 
+ button {
   background-color: #008CBA;
   border: whitesmoke;
   color: white;
   padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;  
-}
-.divider{
+  cursor: pointer; 
+ }
+ .divider{
   border: 1px solid #008CBA
-}
+ }
+ 
+ .subheading {
+  color: rgb(151, 23, 23);
+  text-align: center;
+ } 
+ 
