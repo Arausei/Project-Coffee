@@ -24,6 +24,7 @@ h1 {
   float: left;
   width: 33.33%;
   text-align: center;
+  background-color: #008CBA;
 }
 
 /* Clear floats after the columns */
@@ -55,6 +56,12 @@ img {
   text-align:center;
  }
  
+
+#mush-size {
+  max-width: 300px;
+  text-align: center;
+}
+
  #weapon-type{
   text-align:center;
   color: #e5ff00;
@@ -68,19 +75,31 @@ img {
   font-weight: bold;
   font-size: 22px;
  }
+
+ #veh-atv {
+  max-width: 600px;
+ }
  
+ #veh-kart {
+  max-width: 1500px;
+ }
+
  #submit-button {
-  background-color: #008CBA;
+  background-color: whitesmoke;
   border: whitesmoke;
-  color: white;
+  color: #008CBA;
   padding: 16px 32px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer; 
  }
 
  .play-btn {
    text-align: center;
+   background-color: #008CBA;
+ }
+
+ .row {
+   background-color: #008CBA;
  }
