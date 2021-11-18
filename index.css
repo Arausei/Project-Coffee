@@ -20,6 +20,7 @@ h1 {
 .column {
   float: left;
   width: 33.33%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -27,6 +28,10 @@ h1 {
   content: "";
   display: table;
   clear: both; 
+}
+
+img:hover {
+  opacity: 0.5;
 }
 
 img {
