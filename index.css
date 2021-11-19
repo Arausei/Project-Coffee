@@ -6,7 +6,7 @@ html {
 
 h1 {
   text-align: center;
-  color: rgb(218, 19, 19);
+  color: rgb(202, 18, 18);
   font-size: 40px;
 }
 
@@ -15,9 +15,10 @@ h1 {
   text-align: center;
   background-color: whitesmoke;
   border: 5px solid #131199;
+  font-size: 28px;
  } 
 
- .divider {
+ .divider{
   border: 1px solid #008CBA;
   opacity: 0%;
  }
@@ -26,7 +27,7 @@ h1 {
   float: left;
   width: 33.33%;
   text-align: center;
-  background-color: #008CBA;
+  background-color: #005875;
 }
 
 /* Clear floats after the columns */
@@ -58,14 +59,14 @@ img {
   text-align:center;
  }
 
- #weapon-type {
+ #weapon-type{
   text-align:center;
   color: #e5ff00;
   font-weight: bold;
   font-size: 22px;
  }
  
- #vehicle-type {
+ #vehicle-type{
   text-align:center;
   color: #e5ff00;
   font-weight: bold;
@@ -87,10 +88,11 @@ img {
   padding: 16px 32px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   border-radius: 10px;
-  font-size: 16px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
  }
 
  #submit-button:hover {
@@ -99,9 +101,9 @@ img {
 
  .play-btn {
    text-align: center;
-   background-color: #008CBA;
+   background-color: #005875;
  }
 
  .row {
-   background-color: #008CBA;
+   background-color: #005875;
  }

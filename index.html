@@ -15,9 +15,9 @@
         
         <!-- Images for Players -->
         <div class="row">
-            <div class="column"><img src="src/Images/1200px-BabyMarioSlugger.png" alt = 'Infant form of Mario wearing a blue overall and a red hat with the letter M in the center.'></div>
-            <div class="column"><img src="src/Images/Baby_Peach.png" alt = 'Infant form of Daisy wearing a pink dress and a crown.'></div>
-            <div class="column"><img src="src/Images/Babydaisysimple.png" alt = 'Infant form of Peach wearing a yellow and orange dress and a crown.'></div>
+            <div id = baby-mario class="column"><img src="src/Images/1200px-BabyMarioSlugger.png" alt = 'Infant form of Mario wearing light blue shoes, blue overalls, a red shirt, and his famous red hat with his initial M on it. ' title = 'Infant form of Mario wearing light blue shoes, blue overalls, a red shirt, and his famous red hat with his initial M on it.'></div>
+            <div class="column"><img src="src/Images/Baby_Peach.png" alt = 'Infant form of Daisy with a rich shade of blonde yellow hair wearing red shoes and white socks, and golden crown with rubies and blue jewels in it. She sucks on a pink pacifier.' title = 'Infant form of Daisy with a rich shade of blonde yellow hair wearing red shoes and white socks, and golden crown with rubies and blue jewels in it. She sucks on a pink pacifier.'></div>
+            <div class="column"><img src="src/Images/Babydaisysimple.png" alt = 'Infant form of Peach wearing a yellow and orange dress with puffy sleeves. She wears a golden crown with rubies and blue jewels in it and suck on a gold pacifier.' title = 'Infant form of Peach wearing a yellow and orange dress with puffy sleeves. She wears a golden crown with rubies and blue jewels in it and suck on a gold pacifier.'></div>
         </div>
         
         <!-- Player details -->
@@ -28,18 +28,18 @@
         </div>
 
         <!-- Character radio button -->
-        <div id="radio-btn">
-            <div class="column"> <input type="radio" name="character" value="Wrappers"> 
+        <div id="radio-btn" > 
+            <div class="column"> <input type="radio" aria-label= "Baby Mario with boomerang flower as special skill. Debut tour New York Tour." > 
             <label for="html"></label><br> </div>
             
-            <div class="column"> <input type="radio" name="character" value="Wrappers"> 
+            <div class="column"> <input type="radio" aria-label= "Baby Peach with bubble as special skill. Debut tour New York Tour."> 
             <label for="html"></label><br> </div>
             
-            <div class="column"> <input type="radio" name="character" value="Wrappers"> 
+            <div class="column"> <input type="radio" aria-label= 'Baby Daisy with bubble as special skill. Debut tour New York Tour'> 
             <label for="html"></label><br> </div>
         </div>
         
-        <hr class = 'divider'>
+        <hr class = 'divider' aria-hidden="true">
         <br>
 
 <!-- Weapons -->
@@ -47,9 +47,9 @@
          
         <!-- Images for Weapons -->
          <div class="row">
-            <div class="column"><img src="src/Images/Blue_turtle_shell.png" alt = 'Blue shell with spines on it.'></div>
-            <div class="column"><img src="src/Images/Mk8item10.png" alt = 'Three red shells.' ></div>
-            <div id = 'mush-size' class="column"><img src="src/Images/GoldenMushroom.png" alt = 'A golden mushroom wearing a crown'></div>
+            <div class="column"><img src="src/Images/Blue_turtle_shell.png" alt = 'Blue spiny shell with white spines on it.' title = 'Blue spiny shell with white spines on it.'></div>
+            <div class="column"><img src="src/Images/Mk8item10.png" alt = 'Triple red shells.' title = 'Triple red shells.' ></div>
+            <div id = 'mush-size' class="column"><img src="src/Images/GoldenMushroom.png" alt = 'A golden mushroom wearing a crown' title = 'A golden mushroom wearing a crown.'></div>
         </div>
         
         <!-- Weapon radio button -->
@@ -71,7 +71,7 @@
         </div>
 
         <!-- Vehicles-->
-        <hr class = 'divider'>
+        <hr class = 'divider' aria-hidden="true">
 
         <h2 class="subheading">Choose Your Vehicle!</h2>
         
@@ -79,9 +79,9 @@
           <div class="row">
             <br>
             <br>
-            <div id = 'veh-atv' class="column"><img src="src/Images/StandardATVBodyMK8.png"></div>
-            <div class="column"><img src="src/Images/StandardBikeBody.png"></div>
-            <div id= 'veh-kart' class="column"><img src="src/Images/mario_kart.png"></div>
+            <div id = 'veh-atv' class="column"><img src="src/Images/StandardATVBodyMK8.png" alt = 'A T V Red four-wheeled, all-terrain standard bike with a gray emblem sign on the front' title = 'Red four-wheeled, all-terrain standard bike with a gray emblem sign on the front.'></div>
+            <div class="column"><img src="src/Images/StandardBikeBody.png" alt="Red and blue standard bike with a gray emblem on located on the front and side of the bike" title="Red and blue standard bike with a gray emblem located the front and side of the bike"></div>
+            <div id= 'veh-kart' class="column"><img src="src/Images/mario_kart.png" alt = "Mario's racing standard kart with a red body, gray wheel hinges, black streering wheel, and goldenrod engine and exhaust." title = "Mario's racing car with a red body, gray wheel hinges, black streering wheel, and goldenrod engine and exhaust."></div>
         </div>
 
           <!-- Vehicle radio button-->
@@ -105,7 +105,7 @@
         
         <!-- Submit button -->
         <div class="play-btn">
-            <button id="submit-button" type="button">Ready!</button>
+            <button id="submit-button" type="button" aria-label="Press button to open alert message." >Ready!</button>
         </div>
 
 </body>
